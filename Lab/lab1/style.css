@@ -1,0 +1,63 @@
+.career{
+    border-style: ridge;
+    width: 27%;
+    position: absolute;
+    top: 400px;
+    color: blue;
+    background-color: rgb(244, 244, 244);
+}
+h3{
+    text-align: center;
+    color: black;
+}
+.main{
+    display: flex;
+}
+.image{
+    height: 500px;
+    width: 300px;
+    margin: 7px 7px 7px;
+
+}
+.para{
+    width: 70%;
+}
+.info{
+    margin-left:40px;
+    width: 320px;
+}
+.second{
+    margin-top: 20px;
+    border: ridge;
+}
+h2{
+    text-align: center;
+}
+a{
+    font-size: 14px;
+    margin: 5px 5px 5px;
+    text-align: center;
+}
+.all{
+    margin-left: 50px;
+}
+.personal{
+   text-align: center;
+   background-color: rgb(83, 165, 252);
+   margin: 5px 5px 5px;
+}
+.down{
+    margin: 5px 5px 5px;
+}
+.video{
+    display: flex;
+}
+.yt{
+    border-style: solid;
+    position: absolute;
+    top: 1100px;
+    left: 900px;
+}
+header{
+    font-size: 45px;
+}
