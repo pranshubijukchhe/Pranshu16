@@ -3,4 +3,8 @@
 - [Lab 1 link](https://pranshubijukchhe.github.io/wt-git-assignment/Lab/lab1/)
 - [Lab 2 link](https://pranshubijukchhe.github.io/wt-git-assignment/Lab/lab2)
 - [Lab 3 link](https://pranshubijukchhe.github.io/wt-git-assignment/Lab/lab3)
-- [Lab 4 link](https://pranshubijukchhe.github.io/wt-git-assignment/Lab/lab4/cta.html)
+- [Lab 4 link]
+- [CTA](https://pranshubijukchhe.github.io/wt-git-assignment/Lab/lab4/cta.html)
+- [error](https://pranshubijukchhe.github.io/wt-git-assignment/Lab/lab4/error404.html)
+- [hero](https://pranshubijukchhe.github.io/wt-git-assignment/Lab/lab4/hero.html)
+- [nav](https://pranshubijukchhe.github.io/wt-git-assignment/Lab/lab4/nav.html)
