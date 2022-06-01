@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hero</title>
+    <style>
+
+        a{
+            text-decoration: none;
+        }
+        .brand{
+            color: black;
+            font-size: 35px;
+            font-weight: bolder;
+            position: absolute;
+            left: 18%;
+            top: -50%;
+        }
+        .components{
+            color: #626A77;
+            font-size: 20px;
+            margin-left: 38px;
+            font-weight: bold;
+            position: relative;
+            left: 47%;
+            
+        }
+        .contact{
+            color: #626A77;
+            margin-left: 30vh;
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            right: -80%;
+            border: 1px solid #EBEDF0;
+            padding: 5px 13px 5px;
+            border-radius: 10%;
+        }
+        navbar{
+            position: absolute;
+            display: flex;
+            top: 5%;
+        }
+        .comp{
+            margin-left: 200px;
+        }
+        .logo{
+            width: 20px;
+             filter: invert(8%) sepia(97%) saturate(7081%) hue-rotate(248deg) brightness(97%) contrast(144%);
+             margin-top: 10px;
+        }
+        .all{
+            position: absolute;
+            top: 27%;
+            display: flex;
+        }
+        .topic{
+            color: black;
+            font-size: 55px;
+            font-weight: bolder;
+            position: relative;
+            left: 25%;
+        }
+        .main{
+            margin-top: 30px;
+            margin-left: 125px;
+        }
+        p{
+            margin-top: -25px;
+            margin-left: 40px;
+            font-size: 15px;
+            transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s;
+        }
+        .image{
+            width: 650px;
+            position: relative;
+            left: 40%;
+            height: 470px;
+            border-radius: 2%;
+        }
+        .first{
+            width: 50%;
+        }
+        .email{
+            position: relative;
+            left: 25%;
+            margin-top: 40px;
+        }
+        .text{
+            font-size: 15px;
+            padding: 5px 10px 5px;
+        }
+        .join{
+            margin-left: 10px;
+            color: white;
+            
+            background-color: blue;
+            font-size: 15px;
+            padding: 8px 13px 8px;
+            border-radius: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <navbar>
+        <a href="#" class="brand">Brand</a>
+        <div class="comp">
+        <a href="" class="components">Home</a>
+        <a href="" class="components">Components</a>
+        <a href="" class="components">Pricing</a>
+        <a href="" class="components">Contact</a>
+        <a href="" class="components">FAQ</a>
+    </div>
+        <a href="" class="contact">Contact Us</a>
+    </navbar>
+    <div class="all">
+        <div class="first">
+            <a href="#" class="topic">Easiest way to create<br> your website</a>
+            <div class="main">
+            <img src="task-hero-tick-icon.svg" class="logo" />
+            <p>Clean and Simple Layout</p>
+            <img src="task-hero-tick-icon.svg" class="logo" />
+            <p>Just Copy Paste Codeing</p>
+            <img src="task-hero-tick-icon.svg" class="logo" />
+            <p>Easy to Use</p>
+        </div>
+        <div class="email">
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              class="text"
+            />
+            <a href="#" class="join">Join us</a>
+          </div>
+        </div>
+        <div class="second">
+            <img src="hero.png" class="image"/>
+        </div>
+    </div>
+</body>
+</html>
