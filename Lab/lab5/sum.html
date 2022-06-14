@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sumPrimes(num) {
+  var val =Array.from({length: num}, (_, i) => i + 1)
+  
+  val = val.filter((number)=> {
+    for(var i = 2; i < number; i++){
+      if(number % i === 0){
+        
+        return false
+      }
+    }
+    return number > 1    
+  }).reduce(function(a, b){
+    return a + b   
+  })
+return val;
+  }
+  
+
+console.log(sumPrimes(50));
+    </script>
+</body>
+</html>

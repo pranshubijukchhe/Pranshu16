@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+             let list = [3, 4, 1, 2, 5, 6, 7];
+        let asc;
+        for (let j = 0; j < list.length - 1; j++) {
+            for (let k = j + 1; k < list.length; k++) {
+                if (list[j] > list[k]) {
+                    asc = list[j];
+                    list[j] = list[k];
+                    list[k] = asc;
+                }
+            }
+
+        }
+        for (let m = 0; m < list.length; m++) {
+            console.log(list[m]);
+        }
+
+        for (let j = 0; j < list.length - 1; j++) {
+            for (let k = j + 1; k < list.length; k++) {
+                if (list[j] < list[k]) {
+                    asc = list[j];
+                    list[j] = list[k];
+                    list[k] = asc;
+                }
+            }
+
+        }
+        for (let m = 0; m < list.length; m++) {
+            console.log(list[m]);
+        }
+
+        
+    </script>
+  </body>
+</html>
