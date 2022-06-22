@@ -1,4 +1,5 @@
 Date :2022/06/19- 2022/06/20 
+- [Assignment 6 website Link](https://pranshubijukchhe.github.io/wt-git-assignment/Assignment/Assignment6/drag.html)
 
 PHP
 Stands for "PHP: Hypertext Preprocessor," a recursive acronym. PHP is a scripting language web developers use to create dynamic websites. It is often installed by default on Apache web servers, alongside MySQL as part of a "LAMP" configuration.
